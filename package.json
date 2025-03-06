@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js",
-    "watch": "tsc --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cli": "node dist/cli.js",
+    "indexer": "node dist/index.js",
+    "watch": "tsc --watch"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +20,7 @@
     "uuid": "^11.0.5"
   },
   "devDependencies": {
+    "nodemon": "^3.1.9",
     "typescript": "^5.7.3"
   }
 }

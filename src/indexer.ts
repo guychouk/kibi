@@ -1,6 +1,6 @@
+import fs from 'fs';
 import OpenAI from 'openai';
 import { QdrantClient } from '@qdrant/js-client-rest';
-import fs from 'fs';
 import { v4 as uuidv4 } from 'uuid';
 
 const openai = new OpenAI({
